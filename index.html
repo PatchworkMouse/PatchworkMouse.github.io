@@ -3,55 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Resume</title>
-  <link rel="stylesheet" href="C:\Users\allie\OneDrive\Documents\GitHub\Patchwork_work\style.css">
+  <title>Alizee B Harel - Resume</title>
+  <link rel="stylesheet" href="Assets/CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Alizee B Harel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- Header Section -->
-  <header>
+  <header class="text-center my-4">
     <h1>Alizee B Harel</h1>
     <p>User Experience Specialist</p>
     <p>Email: alizee.harel@mail.mcgill.ca | Phone: 514-999-9999</p>
   </header>
 
   <!-- About Section -->
-  <section id="about">
+  <section id="about" class="container my-5">
     <h2>About Me</h2>
     <p>This is a short description about me and my skills.</p>
+    <a href="https://mcgill.ca" target="_blank" class="btn btn-primary">Visit McGill's Website</a>
   </section>
 
   <!-- Experience Section -->
-  <section id="experience">
+  <section id="experience" class="container my-5">
     <h2>Experience</h2>
     <div class="job">
       <h3>Job title</h3>
       <p>Company Name | Start Date - End Date</p>
       <ul>
         <li>This is a brief description of the job</li>
-        <li>The responsibilities i had</li>
+        <li>The responsibilities I had</li>
       </ul>
     </div>
-    <!-- i might add more jobs as needed -->
+    <!-- Additional jobs can be added here -->
   </section>
 
   <!-- Skills Section -->
-  <section id="skills">
+  <section id="skills" class="container my-5">
     <h2>Skills</h2>
-    <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
-      <li>Skill 3</li>
-      <!-- i may need to add skills as needed -->
+    <ul class="list-inline">
+      <li class="list-inline-item badge badge-secondary p-2">Skill 1</li>
+      <li class="list-inline-item badge badge-secondary p-2">Skill 2</li>
+      <li class="list-inline-item badge badge-secondary p-2">Skill 3</li>
     </ul>
   </section>
 
   <!-- Education Section -->
-  <section id="education">
+  <section id="education" class="container my-5">
     <h2>Education</h2>
     <p>Master's degree in Information Sciences</p>
-    <p>Mcgill University | 2025</p>
+    <p>McGill University | 2025</p>
   </section>
 
+  <!-- Bootstrap JavaScript and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
