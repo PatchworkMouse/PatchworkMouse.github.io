@@ -21,10 +21,14 @@ nav a {
 
 /* Main Section */
 .main-content {
-  background-color: #C5A9A9; /* Background color for the bigger rectangle */
+  background-color: #C5A9A9; 
+  display: flex;
+  align-items: center;
 }
 .main-content .profile {
-  background-color: #DAC1C1; /* Background color for the smaller rectangle */
+  background-color: #DAC1C1;
+  width: 30%;
+  height: 80vh;
 }
 .main-content .profile-name {
   font-size: 20px;
@@ -32,29 +36,18 @@ nav a {
 }
 
 /* Social Icons Placeholder */
-.social-icon {
-  width: 25px;
-  height: 25px;
+.social-icons {
   background-color: #fff;
-  border: 1px solid #0D3621;
-  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
-.social-icon::before,
-.social-icon::after {
-  content: '';
-  position: absolute;
-  width: 70%;
-  height: 1px;
-  background-color: #0D3621;
-}
-.social-icon::before {
-  transform: rotate(45deg);
-}
-.social-icon::after {
-  transform: rotate(-45deg);
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
 /* Right Content */
@@ -67,21 +60,30 @@ nav a {
 }
 
 /* Buttons */
-.cta-buttons .btn-success {
-  background-color: #0D3621; /* CV button color */
-  color: #fff;
-  border: none;
-}
+.cta-buttons .btn-success, 
 .cta-buttons .btn-outline-success {
-  border-color: #0D3621;
-  color: #0D3621;
+  width: 150px;
+  height: 50px;
 }
 
 /* Footer */
-footer div {
-  color: #0D3621;
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f6f6f6;
 }
 
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .call-info div,
+footer .email-info div {
+  margin-bottom: 5px;
+}
 
 
   
