@@ -27,9 +27,9 @@ nav a {
 }
 
 .dark-pink-rectangle {
-  width: 40%; 
-  height: 80vh; 
-  background-color: #C5A9A9; 
+  width: 40%; /* Dark pink rectangle takes up 40% of the width */
+  height: 80vh; /* Adjust the height of the rectangle */
+  background-color: #d45d6a; /* Dark pink color */
   position: absolute; /* Absolute positioning to stick to the top */
   top: 0; /* Sticks to the top of the page */
   left: 0;
@@ -74,7 +74,8 @@ nav a {
   margin-left: 45%; /* Shift the right content further to the right */
   padding-left: 5%;
   position: relative;
-  top: 30%; /* Move the text lower on the page */
+  top: 40%; /* Adjusted to make the text appear lower */
+  z-index: 3; /* Ensure right content is above other elements */
 }
 
 .right-content h1 {
