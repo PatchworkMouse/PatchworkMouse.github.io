@@ -29,26 +29,30 @@ nav a {
   align-items: flex-start;
   justify-content: space-between;
   padding: 5% 10%;
+  margin-left: 40%
   min-height: 80vh;
   position: relative;
 }
 
 .dark-pink-rectangle {
-  background-color: #c5a9a9;
-  width: 40%;
-  height: 100%;
-  position: relative;
- 
-}
+  .dark-pink-rectangle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%; /* Adjust as needed */
+    height: 100vh;
+    background-color: #C5A9A9;
+    z-index: -1; /* Ensures it stays behind other content */
+  }
 
 .profile {
   background-color: #DAC1C1;
   width: 80%;
   padding: 20px;
   margin-top: 5%;
-  position: absolute;
+  position: relative;
   left: 10%;
-  top: 10%;
+  top: 20%;
   z-index: 2;
 }
 
