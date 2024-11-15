@@ -85,7 +85,9 @@ nav a {
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #303d35;
+  color: #303d35 !important;
+  font-size: 3em;
+  margin: 0;
 }
 
 .right-content p {
