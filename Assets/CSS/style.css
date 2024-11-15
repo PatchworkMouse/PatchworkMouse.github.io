@@ -45,17 +45,19 @@ nav a {
   z-index: -1; /* Ensures it stays behind other content */
 }
 
-/* Profile (Light Pink Rectangle) */
+/* Lighter Pink Rectangle */
 .profile {
   background-color: #DAC1C1;
-  width: 80%;
+  width: 60%; /* Adjust width as desired */
   padding: 20px;
   margin-top: 5%;
   position: absolute;
-  left: 10%;
-  top: 10%;
-  z-index: 2;
+  left: 35%; /* Offset to overlap with dark rectangle and extend into white */
+  top: 15%; /* Adjust top spacing as desired */
+  z-index: 1; /* Keep it above the dark rectangle but behind text content */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better contrast */
 }
+
 
 .profile-name {
   font-size: 20px;
