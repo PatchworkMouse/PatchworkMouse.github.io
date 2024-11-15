@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Lato', sans-serif;
-  color: #03190e;
+  color: #303d35; /* Dark charcoal or very dark green */
   background-color: #fff; /* Set the background color of the page to white */
 }
 a {
@@ -13,10 +13,10 @@ a {
 header .brand {
   font-size: 24px;
   font-weight: bold;
-  color: #03190e;
+  color: #303d35; /* Dark charcoal or very dark green */
 }
 nav a {
-  color: #03190e;
+  color: #303d35; /* Dark charcoal or very dark green */
 }
 
 /* Main Section */
@@ -42,7 +42,7 @@ nav a {
 
 .main-content .profile-name {
   font-size: 20px;
-  color: #03190e;
+  color: #303d35; /* Dark charcoal or very dark green */
 }
 
 /* Social Icons */
@@ -57,7 +57,7 @@ nav a {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #03190e;
+  background-color: #303d35; /* Dark charcoal or very dark green */
   margin: 0 10px;
   border-radius: 50%;
 }
@@ -70,7 +70,7 @@ nav a {
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #03190e;
+  color: #303d35; /* Dark charcoal or very dark green */
 }
 
 .right-content p {
@@ -106,14 +106,11 @@ footer .email-info div {
 
 /* General Button Styles */
 .cta-buttons .btn-success {
-  background-color: #03190e; /* CV button color */
+  background-color: #303d35; /* Dark charcoal or very dark green */
   color: #fff;
   border: none;
 }
 .cta-buttons .btn-outline-success {
-  border-color: #03190e;
-  color: #03190e;
+  border-color: #303d35; /* Dark charcoal or very dark green */
+  color: #303d35; /* Dark charcoal or very dark green */
 }
-
-
-  
