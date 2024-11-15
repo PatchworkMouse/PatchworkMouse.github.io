@@ -1,8 +1,8 @@
 /* General Styles */
 body {
   font-family: 'Lato', sans-serif;
-  color: #0D3621;
-  background-color: #f6f6f6;
+  color: #03190e;
+  background-color: #fff; /* Set the background color of the page to white */
 }
 a {
   text-decoration: none;
@@ -13,54 +13,72 @@ a {
 header .brand {
   font-size: 24px;
   font-weight: bold;
-  color: #0D3621;
+  color: #03190e;
 }
 nav a {
-  color: #0D3621;
+  color: #03190e;
 }
 
 /* Main Section */
 .main-content {
-  background-color: #C5A9A9; 
   display: flex;
-  align-items: center;
+  padding: 5% 10%;
 }
+
+.dark-pink-rectangle {
+  width: 40%; /* Dark pink rectangle is now less than half of the page */
+  height: 80vh; /* Adjust the height of the rectangle */
+  position: relative;
+}
+
 .main-content .profile {
-  background-color: #DAC1C1;
-  width: 30%;
-  height: 80vh;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: #DAC1C1; /* Lighter pink rectangle */
+  width: 80%;
+  padding: 20px;
 }
+
 .main-content .profile-name {
   font-size: 20px;
   color: #0D3621;
 }
 
-/* Social Icons Placeholder */
+/* Social Icons */
 .social-icons {
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
+
 .social-icon {
   width: 30px;
   height: 30px;
+  background-color: #03190e;
   margin: 0 10px;
+  border-radius: 50%;
 }
 
 /* Right Content */
+.right-content {
+  margin-left: 40%;
+  padding-left: 5%;
+}
+
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #0D3621;
+  color: #03190e;
 }
+
 .right-content p {
   color: #555;
 }
 
 /* Buttons */
-.cta-buttons .btn-success, 
+.cta-buttons .btn-success,
 .cta-buttons .btn-outline-success {
   width: 150px;
   height: 50px;
@@ -80,9 +98,21 @@ footer div {
   flex-direction: column;
   justify-content: center;
 }
+
 footer .call-info div,
 footer .email-info div {
   margin-bottom: 5px;
+}
+
+/* General Button Styles */
+.cta-buttons .btn-success {
+  background-color: #03190e; /* CV button color */
+  color: #fff;
+  border: none;
+}
+.cta-buttons .btn-outline-success {
+  border-color: #03190e;
+  color: #03190e;
 }
 
 
