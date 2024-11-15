@@ -44,10 +44,9 @@ nav a {
 .main-content .profile {
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 5%;
   background-color: #DAC1C1;
   width: 80%;
-  height: 70%;
   padding: 20px;
   z-index: 2;
 }
@@ -76,10 +75,10 @@ nav a {
 
 /* Right Content */
 .right-content {
-  margin-left: auto; /* Aligns to the right */
+  margin-left: 45%; /* Adjusted to place it clearly to the right of pink rectangles */
   padding-left: 5%;
   position: relative;
-  top: 40%;
+  top: 20%;
   z-index: 3;
 }
 
