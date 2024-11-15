@@ -2,11 +2,9 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #303d35; /* Dark charcoal or very dark green */
-  background-color: #fff; /* Set the background color of the page to white */
-}
-a {
-  text-decoration: none;
-  color: inherit;
+  background-color: #fff; /* White background for the page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 /* Header */
@@ -22,22 +20,31 @@ nav a {
 /* Main Section */
 .main-content {
   display: flex;
-  padding: 5% 10%;
+  padding: 0 10%; /* Ensure no padding at the top so the dark pink rectangle touches the header */
+  position: relative;
+  min-height: 100vh; /* Ensure this section fills the entire height of the screen */
+  background-color: #fff; /* Set the background to white */
 }
 
 .dark-pink-rectangle {
-  width: 40%; /* Dark pink rectangle is now less than half of the page */
-  height: 80vh; /* Adjust the height of the rectangle */
-  position: relative;
+  width: 40%; 
+  height: 80vh; 
+  background-color: #C5A9A9; 
+  position: absolute; /* Absolute positioning to stick to the top */
+  top: 0; /* Sticks to the top of the page */
+  left: 0;
+  z-index: 1; /* Makes sure it's at the back */
 }
 
 .main-content .profile {
-  position: absolute;
-  top: 10%;
+  position: absolute; /* Absolute positioning to allow overlap */
+  top: 20%; /* Start the profile lower within the dark pink rectangle */
   left: 10%;
   background-color: #DAC1C1; /* Lighter pink rectangle */
-  width: 80%;
+  width: 80%; /* Occupies 80% of the dark pink rectangle */
+  height: 70%; /* Adjust height so it overlaps and sticks out into the white background */
   padding: 20px;
+  z-index: 2; /* Overlaps with the dark pink rectangle */
 }
 
 .main-content .profile-name {
@@ -64,8 +71,10 @@ nav a {
 
 /* Right Content */
 .right-content {
-  margin-left: 40%;
+  margin-left: 45%; /* Shift the right content further to the right */
   padding-left: 5%;
+  position: relative;
+  top: 30%; /* Move the text lower on the page */
 }
 
 .right-content h1 {
