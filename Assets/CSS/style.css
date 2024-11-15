@@ -18,6 +18,7 @@ header .brand {
   font-weight: bold;
   color: #303d35;
 }
+
 nav a {
   color: #303d35;
 }
@@ -25,33 +26,33 @@ nav a {
 /* Main Section */
 .main-content {
   display: flex;
-  padding: 0 10%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5% 10%;
+  min-height: 80vh;
   position: relative;
-  min-height: 100vh;
-  background-color: #fff;
 }
 
 .dark-pink-rectangle {
-  width: 40%;
-  height: 80vh;
   background-color: #d45d6a;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: 40%;
+  height: 100%;
+  position: relative;
   z-index: 1;
 }
 
-.main-content .profile {
-  position: absolute;
-  top: 20%;
-  left: 5%;
+.profile {
   background-color: #DAC1C1;
   width: 80%;
   padding: 20px;
+  margin-top: 5%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
   z-index: 2;
 }
 
-.main-content .profile-name {
+.profile-name {
   font-size: 20px;
   color: #303d35;
 }
@@ -63,6 +64,7 @@ nav a {
   border-radius: 5px;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .social-icon {
@@ -75,16 +77,15 @@ nav a {
 
 /* Right Content */
 .right-content {
-  margin-left: 45%; /* Adjusted to place it clearly to the right of pink rectangles */
+  flex: 1;
   padding-left: 5%;
-  position: relative;
-  top: 20%;
+  margin-top: 20vh;
   z-index: 3;
 }
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #303d35 !important;
+  color: #303d35;
 }
 
 .right-content p {
@@ -99,27 +100,27 @@ nav a {
   font-size: 16px;
 }
 
-/* General Button Styles */
+/* Button Styles */
 .cta-buttons .btn-success {
-  background-color: #303d35 !important;
-  color: #fff !important;
-  border: none !important;
+  background-color: #303d35;
+  color: #fff;
+  border: none;
 }
 
 .cta-buttons .btn-success:hover {
-  background-color: #303d35 !important;
-  color: #fff !important;
+  background-color: #303d35;
+  color: #fff;
 }
 
 .cta-buttons .btn-outline-success {
-  border-color: #303d35 !important;
-  color: #303d35 !important;
+  border: 2px solid #303d35;
+  color: #303d35;
 }
 
 .cta-buttons .btn-outline-success:hover {
-  background-color: #303d35 !important;
-  color: #fff !important;
-  border-color: #303d35 !important;
+  background-color: #303d35;
+  color: #fff;
+  border-color: #303d35;
 }
 
 /* Footer */
