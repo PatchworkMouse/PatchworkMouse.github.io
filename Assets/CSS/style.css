@@ -37,7 +37,7 @@ nav a {
 /* Dark Pink Rectangle */
 .dark-pink-rectangle {
   position: fixed;
-  top: 0;
+  top: 80px;
   left: 0;
   width: 40%; /* Adjust as needed */
   height: 100vh;
