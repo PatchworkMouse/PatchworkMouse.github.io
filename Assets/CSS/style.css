@@ -70,7 +70,7 @@ nav a {
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #303d35; /* Dark charcoal or very dark green */
+  color: #303d35 !important; /* Dark charcoal or very dark green with !important */
 }
 
 .right-content p {
@@ -82,6 +82,17 @@ nav a {
 .cta-buttons .btn-outline-success {
   width: 150px;
   height: 50px;
+}
+
+.cta-buttons .btn-success {
+  background-color: #303d35 !important; /* Dark charcoal or very dark green with !important */
+  color: #fff !important;
+  border: none !important;
+}
+
+.cta-buttons .btn-outline-success {
+  border-color: #303d35 !important; /* Dark charcoal or very dark green with !important */
+  color: #303d35 !important; /* Dark charcoal or very dark green with !important */
 }
 
 /* Footer */
@@ -102,15 +113,4 @@ footer div {
 footer .call-info div,
 footer .email-info div {
   margin-bottom: 5px;
-}
-
-/* General Button Styles */
-.cta-buttons .btn-success {
-  background-color: #303d35; /* Dark charcoal or very dark green */
-  color: #fff;
-  border: none;
-}
-.cta-buttons .btn-outline-success {
-  border-color: #303d35; /* Dark charcoal or very dark green */
-  color: #303d35; /* Dark charcoal or very dark green */
 }
