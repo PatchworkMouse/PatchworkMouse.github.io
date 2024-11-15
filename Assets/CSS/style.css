@@ -1,55 +1,60 @@
 /* General Styles */
 body {
   font-family: 'Lato', sans-serif;
-  color: #303d35; /* Dark charcoal or very dark green */
-  background-color: #fff; /* White background for the page */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  color: #303d35;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Header */
 header .brand {
   font-size: 24px;
   font-weight: bold;
-  color: #303d35; /* Dark charcoal or very dark green */
+  color: #303d35;
 }
 nav a {
-  color: #303d35; /* Dark charcoal or very dark green */
+  color: #303d35;
 }
 
 /* Main Section */
 .main-content {
   display: flex;
-  padding: 0 10%; /* Ensure no padding at the top so the dark pink rectangle touches the header */
+  padding: 0 10%;
   position: relative;
-  min-height: 100vh; /* Ensure this section fills the entire height of the screen */
-  background-color: #fff; /* Set the background to white */
+  min-height: 100vh;
+  background-color: #fff;
 }
 
 .dark-pink-rectangle {
-  width: 40%; /* Dark pink rectangle takes up 40% of the width */
-  height: 80vh; /* Adjust the height of the rectangle */
-  background-color: #d45d6a; /* Dark pink color */
-  position: absolute; /* Absolute positioning to stick to the top */
-  top: 0; /* Sticks to the top of the page */
+  width: 40%;
+  height: 80vh;
+  background-color: #d45d6a;
+  position: absolute;
+  top: 0;
   left: 0;
-  z-index: 1; /* Makes sure it's at the back */
+  z-index: 1;
 }
 
 .main-content .profile {
-  position: absolute; /* Absolute positioning to allow overlap */
-  top: 20%; /* Start the profile lower within the dark pink rectangle */
+  position: absolute;
+  top: 20%;
   left: 10%;
-  background-color: #DAC1C1; /* Lighter pink rectangle */
-  width: 80%; /* Occupies 80% of the dark pink rectangle */
-  height: 70%; /* Adjust height so it overlaps and sticks out into the white background */
+  background-color: #DAC1C1;
+  width: 80%;
+  height: 70%;
   padding: 20px;
-  z-index: 2; /* Overlaps with the dark pink rectangle */
+  z-index: 2;
 }
 
 .main-content .profile-name {
   font-size: 20px;
-  color: #303d35; /* Dark charcoal or very dark green */
+  color: #303d35;
 }
 
 /* Social Icons */
@@ -64,23 +69,23 @@ nav a {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #303d35; /* Dark charcoal or very dark green */
+  background-color: #303d35;
   margin: 0 10px;
   border-radius: 50%;
 }
 
 /* Right Content */
 .right-content {
-  margin-left: 45%; /* Shift the right content further to the right */
+  margin-left: auto; /* Aligns to the right */
   padding-left: 5%;
   position: relative;
-  top: 40%; /* Adjusted to make the text appear lower */
-  z-index: 3; /* Ensure right content is above other elements */
+  top: 40%;
+  z-index: 3;
 }
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #303d35 !important; /* Dark charcoal or very dark green with !important */
+  color: #303d35 !important;
 }
 
 .right-content p {
@@ -92,17 +97,30 @@ nav a {
 .cta-buttons .btn-outline-success {
   width: 150px;
   height: 50px;
+  font-size: 16px;
 }
 
+/* General Button Styles */
 .cta-buttons .btn-success {
-  background-color: #303d35 !important; /* Dark charcoal or very dark green with !important */
+  background-color: #303d35 !important;
   color: #fff !important;
   border: none !important;
 }
 
+.cta-buttons .btn-success:hover {
+  background-color: #303d35 !important;
+  color: #fff !important;
+}
+
 .cta-buttons .btn-outline-success {
-  border-color: #303d35 !important; /* Dark charcoal or very dark green with !important */
-  color: #303d35 !important; /* Dark charcoal or very dark green with !important */
+  border-color: #303d35 !important;
+  color: #303d35 !important;
+}
+
+.cta-buttons .btn-outline-success:hover {
+  background-color: #303d35 !important;
+  color: #fff !important;
+  border-color: #303d35 !important;
 }
 
 /* Footer */
