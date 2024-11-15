@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Lato', sans-serif;
-  color: #303d35;
+  color: #0D3621; /* Updated text color */
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -16,11 +16,11 @@ a {
 header .brand {
   font-size: 24px;
   font-weight: bold;
-  color: #303d35;
+  color: #0D3621; /* Updated text color */
 }
 
 nav a {
-  color: #303d35;
+  color: #0D3621; /* Updated text color */
 }
 
 /* Main Section */
@@ -29,36 +29,37 @@ nav a {
   align-items: flex-start;
   justify-content: space-between;
   padding: 5% 10%;
-  margin-left: 40%
+  margin-left: 40%;
   min-height: 80vh;
   position: relative;
 }
 
+/* Dark Pink Rectangle */
 .dark-pink-rectangle {
-  .dark-pink-rectangle {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 40%; /* Adjust as needed */
-    height: 100vh;
-    background-color: #C5A9A9;
-    z-index: -1; /* Ensures it stays behind other content */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%; /* Adjust as needed */
+  height: 100vh;
+  background-color: #C5A9A9;
+  z-index: -1; /* Ensures it stays behind other content */
+}
 
+/* Profile (Light Pink Rectangle) */
 .profile {
   background-color: #DAC1C1;
   width: 80%;
   padding: 20px;
   margin-top: 5%;
-  position: relative;
+  position: absolute;
   left: 10%;
-  top: 20%;
+  top: 10%;
   z-index: 2;
 }
 
 .profile-name {
   font-size: 20px;
-  color: #303d35;
+  color: #0D3621; /* Updated text color */
 }
 
 /* Social Icons */
@@ -74,7 +75,7 @@ nav a {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #303d35;
+  background-color: #0D3621; /* Updated background color */
   margin: 0 10px;
   border-radius: 50%;
 }
@@ -89,7 +90,7 @@ nav a {
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #303d35 !important;
+  color: #0D3621 !important; /* Updated text color */
   font-size: 3em;
   margin: 0;
 }
@@ -108,25 +109,25 @@ nav a {
 
 /* Button Styles */
 .cta-buttons .btn-success {
-  background-color: #303d35;
+  background-color: #0D3621; /* Updated background color */
   color: #fff;
   border: none;
 }
 
 .cta-buttons .btn-success:hover {
-  background-color: #303d35;
+  background-color: #0D3621; /* Updated background color */
   color: #fff;
 }
 
 .cta-buttons .btn-outline-success {
-  border: 2px solid #303d35;
-  color: #303d35;
+  border: 2px solid #0D3621; /* Updated border color */
+  color: #0D3621; /* Updated text color */
 }
 
 .cta-buttons .btn-outline-success:hover {
-  background-color: #303d35;
+  background-color: #0D3621; /* Updated background color */
   color: #fff;
-  border-color: #303d35;
+  border-color: #0D3621;
 }
 
 /* Footer */
