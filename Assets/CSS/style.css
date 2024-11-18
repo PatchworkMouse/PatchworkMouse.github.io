@@ -21,6 +21,21 @@ header .brand {
 
 nav a {
   color: #0D3621; /* Updated text color */
+  text-decoration: none;
+  margin: 0 1rem; /* Consistent spacing between navigation links */
+}
+
+nav .contact-group {
+  display: flex;
+  flex-direction: column; /* Stack EN | FR above Contact */
+  align-items: center; /* Center align both elements */
+  margin: 0 1rem; /* Consistent spacing with other links */
+}
+
+nav .contact-group .language-toggle {
+  font-size: 0.9rem; /* Slightly smaller font size for EN | FR */
+  margin-bottom: 0.2rem; /* Space between EN | FR and Contact */
+  color: #0D3621; /* Matching color with links */
 }
 
 /* Main Section */
