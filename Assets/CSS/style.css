@@ -19,31 +19,9 @@ header .brand {
   color: #0D3621; /* Updated text color */
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
-
 nav a {
   color: #0D3621; /* Updated text color */
-  text-decoration: none;
-  margin: 0 1rem; /* Spacing between navigation links */
 }
-
-/* Contact Group */
-nav .contact-group {
-  display: flex;
-  flex-direction: column; /* Stack EN | FR above Contact */
-  align-items: center; /* Center align both elements */
-  margin-left: 1rem; /* Slight margin to the left to match spacing */
-}
-
-nav .language-toggle {
-  font-size: 0.9rem; /* Slightly smaller font for EN | FR */
-  margin-bottom: 0.2rem; /* Space between EN | FR and Contact */
-  color: #0D3621; /* Matching color with links */
-}
-
 /* Main Section */
 .main-content {
   display: flex;
