@@ -60,8 +60,8 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo {
-  width: 150px; /* Matches the size in your original code */
-  height: 150px; /* Ensures it's a square */
+  width: 250px; /* Matches the size in your original code */
+  height: 250px; /* Ensures it's a square */
   border-radius: 50%; /* Turns the image into a circle */
   object-fit: cover; /* Ensures the image fits well within the circle */
   border: 3px solid #fff; /* Adds a decorative white border */
