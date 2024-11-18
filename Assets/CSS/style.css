@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Lato', sans-serif;
-  color: #0D3621; /* Updated text color */
+  color: #0D3621; 
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -16,11 +16,11 @@ a {
 header .brand {
   font-size: 24px;
   font-weight: bold;
-  color: #0D3621; /* Updated text color */
+  color: #0D3621; 
 }
 
 nav a {
-  color: #0D3621; /* Updated text color */
+  color: #0D3621; 
 }
 /* Main Section */
 .main-content {
@@ -38,38 +38,37 @@ nav a {
   position: fixed;
   top: 88px;
   left: 0;
-  width: 40%; /* Adjust as needed */
+  width: 40%; 
   height: 100vh;
   background-color: #C5A9A9;
-  z-index: -1; /* Ensures it stays behind other content */
+  z-index: -1;
 }
 
 /* Lighter Pink Rectangle */
 .profile {
   background-color: #DAC1C1;
-  width: 80%; /* Adjust width as desired */
+  width: 80%; 
   padding: 20px;
   margin-top: 5%;
   min-height: max-content;
   position: absolute;
-  left: 35%; /* Offset to overlap with dark rectangle and extend into white */
+  left: 35%; 
   top: 15%; 
   z-index: 1; 
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better contrast */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* Profile Photo Styling */
 .profile-photo {
-  width: 250px; /* Matches the size in your original code */
-  height: 250px; /* Ensures it's a square */
-  border-radius: 50%; /* Turns the image into a circle */
-  object-fit: cover; /* Ensures the image fits well within the circle */
-  border: 3px solid #fff; /* Adds a decorative white border */
+  width: 500px; 
+  height: 500px; 
+  border-radius: 50%; 
+  object-fit: cover; 
 }
 
 .profile-name {
   font-size: 20px;
-  color: #0D3621; /* Updated text color */
+  color: #0D3621; 
 }
 
 /* Social Icons */
@@ -85,7 +84,7 @@ nav a {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #0D3621; /* Updated background color */
+  background-color: #0D3621; 
   margin: 0 10px;
   border-radius: 50%;
 }
@@ -100,7 +99,7 @@ nav a {
 
 .right-content h1 {
   font-family: 'Merriweather', serif;
-  color: #0D3621 !important; /* Updated text color */
+  color: #0D3621 !important; 
   font-size: 3em;
   margin: 0;
 }
@@ -119,23 +118,23 @@ nav a {
 
 /* Button Styles */
 .cta-buttons .btn-success {
-  background-color: #0D3621; /* Updated background color */
+  background-color: #0D3621; 
   color: #fff;
   border: none;
 }
 
 .cta-buttons .btn-success:hover {
-  background-color: #0D3621; /* Updated background color */
+  background-color: #0D3621; 
   color: #fff;
 }
 
 .cta-buttons .btn-outline-success {
-  border: 2px solid #0D3621; /* Updated border color */
-  color: #0D3621; /* Updated text color */
+  border: 2px solid #0D3621; 
+  color: #0D3621; 
 }
 
 .cta-buttons .btn-outline-success:hover {
-  background-color: #0D3621; /* Updated background color */
+  background-color: #0D3621; 
   color: #fff;
   border-color: #0D3621;
 }
