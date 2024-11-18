@@ -47,7 +47,7 @@ nav a {
 /* Lighter Pink Rectangle */
 .profile {
   background-color: #DAC1C1;
-  width: 700px; 
+  width: 80%; 
   padding: 20px;
   margin-top: 5%;
   min-height: max-content;
@@ -64,9 +64,9 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo {
-  width: 500px; !important
-  height: 500px; !important
-  border-radius: 50%; !important
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
   object-fit: cover; 
 }
 
