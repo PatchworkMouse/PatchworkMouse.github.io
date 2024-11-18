@@ -60,9 +60,9 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo {
-  width: 500px; 
-  height: 500px; 
-  border-radius: 50%; 
+  width: 500px; !important
+  height: 500px; !important
+  border-radius: 50%; !important
   object-fit: cover; 
 }
 
