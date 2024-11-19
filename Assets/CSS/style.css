@@ -22,15 +22,16 @@ header .brand {
 nav a {
   color: #0D3621; 
 }
+
 /* Main Section */
 .main-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 5% 10%;
-  margin-left: 40%;
   min-height: 80vh;
   position: relative;
+  z-index: 2; /* Ensures content stays above the pink rectangle */
 }
 
 /* Dark Pink Rectangle */
@@ -41,7 +42,7 @@ nav a {
   width: 40%; 
   height: 100vh;
   background-color: #C5A9A9;
-  z-index: -1;
+  z-index: 0; /* Ensures the pink rectangle stays below other content */
 }
 
 /* Lighter Pink Rectangle */
@@ -51,8 +52,9 @@ nav a {
   padding: 5px;
   margin-top: 5%;
   min-height: 500px;
-  position: absolute;
-  margin-left: 30%; 
+  position: relative; 
+  margin-left: auto; 
+  margin-right: auto; 
   margin-top: 15%; 
   z-index: 1; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
@@ -64,13 +66,14 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo { 
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover; 
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
+/* Profile Name */
 .profile-name {
   font-size: 20px;
   color: #0D3621; 
