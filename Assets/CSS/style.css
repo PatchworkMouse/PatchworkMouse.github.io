@@ -33,17 +33,6 @@ nav a {
   position: relative;
 }
 
-/* Dark Pink Rectangle */
-.dark-pink-rectangle {
-  position: fixed;
-  top: 88px;
-  left: 0;
-  width: 40%; 
-  height: 100vh;
-  background-color: #C5A9A9;
-  z-index: -1;
-}
-
 /* Profile Photo Styling */
 .profile-photo { 
   width: 300px;
