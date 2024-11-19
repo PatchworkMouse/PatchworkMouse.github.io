@@ -64,8 +64,8 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo { 
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover; 
   margin-bottom: 15px;
