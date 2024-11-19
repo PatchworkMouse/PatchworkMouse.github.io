@@ -22,7 +22,6 @@ header .brand {
 nav a {
   color: #0D3621; 
 }
-
 /* Main Section */
 .main-content {
   display: flex;
@@ -65,14 +64,13 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo { 
-  width: 300px; /* Increased size */
-  height: 300px; /* Increased size */
-  border-radius: 0; /* Removed circular border */
-  object-fit: cover; /* Ensures the image maintains aspect ratio */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover; 
   margin-bottom: 15px;
 }
 
-/* Profile Name */
 .profile-name {
   font-size: 20px;
   color: #0D3621; 
