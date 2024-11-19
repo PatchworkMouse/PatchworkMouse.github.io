@@ -33,6 +33,35 @@ nav a {
   position: relative;
 }
 
+/* Dark Pink Rectangle */
+.dark-pink-rectangle {
+  position: fixed;
+  top: 88px;
+  left: 0;
+  width: 40%; 
+  height: 100vh;
+  background-color: #C5A9A9;
+  z-index: -1;
+}
+
+/* Lighter Pink Rectangle */
+.profile {
+  background-color: #DAC1C1;
+  width: 80%; 
+  padding: 5px;
+  margin-top: 5%;
+  min-height: 500px;
+  position: absolute;
+  margin-left: 30%; 
+  margin-top: 15%; 
+  z-index: 1; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
 /* Profile Photo Styling */
 .profile-photo { 
   width: 300px;
