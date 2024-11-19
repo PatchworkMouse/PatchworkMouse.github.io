@@ -71,12 +71,6 @@ nav a {
   margin-bottom: 30px;
 }
 
-.profile-name {
-  font-family: 'Merriweather', serif;
-  font-size: 30px;
-  color: #0D3621; 
-}
-
 /* Right Content */
 .right-content {
   flex: 1;
