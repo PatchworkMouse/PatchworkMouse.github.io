@@ -84,7 +84,7 @@ nav a {
   height: 2px;
   background-color: #0D3621; 
   margin: 0 auto 15px;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 /* Job Title */
@@ -92,7 +92,7 @@ nav a {
   font-size: 16px;
   font-weight: normal;
   color: #666666; 
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 20px;
 }
 
