@@ -47,7 +47,7 @@ nav a {
 /* Lighter Pink Rectangle */
 .profile {
   background-color: #cbc7b7;
-  width: 80%; 
+  width: 70%; 
   padding: 5px;
   margin-top: 5%;
   min-height: 500px;
@@ -70,6 +70,50 @@ nav a {
   object-fit: cover; 
   margin-bottom: 30px;
 }
+/* Profile Name */
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0D3621; 
+  margin-bottom: 5px;
+}
+
+/* Underline */
+.underline {
+  width: 50px;
+  height: 2px;
+  background-color: #0D3621; 
+  margin: 0 auto 15px;
+}
+
+/* Job Title */
+.job-title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666; 
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #0D3621; /* Blue background */
+  color: #ffffff; /* White text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  text-decoration: none; /* Remove underline */
+  font-family: Arial, sans-serif;
+}
 
 /* Right Content */
 .right-content {
@@ -84,6 +128,7 @@ nav a {
   color: #0D3621 !important; 
   font-size: 3em;
   margin: 0;
+  margin-right: 70%;
 }
 
 .right-content p {
