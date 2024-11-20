@@ -52,7 +52,7 @@ nav a {
   margin-top: 5%;
   min-height: 500px;
   position: absolute;
-  margin-left: 50%; 
+  margin-left: 30%; 
   margin-top: 15%; 
   z-index: 1; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
@@ -64,8 +64,8 @@ nav a {
 
 /* Profile Photo Styling */
 .profile-photo { 
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover; 
   margin-bottom: 30px;
@@ -105,7 +105,7 @@ nav a {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #0D3621; /* Blue background */
+  background-color: #0D3621; 
   color: #ffffff; /* White text */
   display: flex;
   justify-content: center;
