@@ -91,32 +91,11 @@ nav a {
 /* Job Title */
 .job-title {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   color: #4a5a51; 
   margin-top: 3%;
   margin-bottom: 20px;
-}
-
-/* Social Icons */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px; /* Space between icons */
-}
-
-.social-icon {
-  width: 30px;
-  height: 30px;
-  background-color: #0D3621; 
-  color: #ffffff; /* White text */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 14px;
-  text-decoration: none; /* Remove underline */
-  font-family: Arial, sans-serif;
 }
 
 /* Right Content */
