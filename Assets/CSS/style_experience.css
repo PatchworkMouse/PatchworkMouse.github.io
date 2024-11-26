@@ -1,6 +1,5 @@
 /* General styles */
 body {
-    background-color: #c5a9a9;
     font-family: 'Lato', sans-serif;
     margin: 0;
     display: flex;
@@ -9,37 +8,14 @@ body {
     min-height: 100vh; 
 }
 
-/* Header */
-header {
-    width: 100%; 
-    background-color: #ffffff; 
-    padding: 20px 0;
-    text-align: center; 
-}
-
-header .brand {
-    font-size: 24px;
-    font-weight: bold;
-    color: #0D3621; 
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav a {
-    color: #0D3621; 
-    text-decoration: none;
-}
 
 /* Experience section */
 .experience-section {
-    width: 80%;
-    max-width: 800px;
+    position: fixed;
+    top: 88px;
+    background-color: #c5a9a9;
+    width: 100%;
     text-align: center;
-    margin: 40px 0; 
 }
 
 /* Each experience box */
@@ -68,24 +44,3 @@ nav a {
     margin: 5px 0;
 }
 
-/* Footer */
-footer {
-    width: 100%; /* Full width */
-    background-color: #ffffff; /* White background */
-    display: flex;
-    justify-content: space-around; /* Evenly space footer content */
-    align-items: center;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-footer .call-info div,
-footer .email-info div {
-    margin-bottom: 5px;
-}

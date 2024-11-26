@@ -149,6 +149,11 @@ nav a {
   border-color: #0D3621;
 }
 
+.main-content-experience {
+  background-color: #c5a9a9;
+}
+
+
 /* Footer */
 footer {
   display: flex;
