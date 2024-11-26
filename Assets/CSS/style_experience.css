@@ -1,3 +1,12 @@
+/* General styles */
+body {
+    background-color: #c5a9a9;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
 /* Header */
 header .brand {
     font-size: 24px;
@@ -7,15 +16,6 @@ header .brand {
   
   nav a {
     color: #0D3621; 
-  }
-
-/* General styles */
-body {
-    background-color: #c5a9a9;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
   }
 
 /* Experience section */
