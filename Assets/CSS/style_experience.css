@@ -2,72 +2,90 @@
 body {
     background-color: #c5a9a9;
     font-family: 'Lato', sans-serif;
+    margin: 0;
     display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+}
 
 /* Header */
+header {
+    width: 100%; 
+    background-color: #ffffff; 
+    padding: 20px 0;
+    text-align: center; 
+}
+
 header .brand {
     font-size: 24px;
     font-weight: bold;
     color: #0D3621; 
-  }
-  
-  nav a {
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
     color: #0D3621; 
-  }
+    text-decoration: none;
+}
 
 /* Experience section */
 .experience-section {
     width: 80%;
     max-width: 800px;
     text-align: center;
-    margin-top: 40px;
-  }
-  
-  /* Each experience box */
-  .experience-box {
+    margin: 40px 0; 
+}
+
+/* Each experience box */
+.experience-box {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     padding: 20px;
     text-align: left;
-  }
-  
-  /* Content inside the experience box */
-  .experience-content h4 {
-    color: #6d6d6d;
+}
+
+/* Content inside the experience box */
+.experience-content h4 {
+    color: #0D3621;
     font-weight: bold;
-  }
-  
-  .experience-content h5 {
-    color: #333;
+}
+
+.experience-content h5 {
+    color: #0D3621;
     margin: 5px 0;
-  }
-  
-  .experience-content p {
-    color: #555;
+}
+
+.experience-content p {
+    color: #0D3621;
     margin: 5px 0;
-  }  
+}
 
 /* Footer */
 footer {
+    width: 100%; /* Full width */
+    background-color: #ffffff; /* White background */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; /* Evenly space footer content */
     align-items: center;
-    padding: 20px;
-    background-color: #f6f6f6;
-  }
-  
-  footer div {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  footer .call-info div,
-  footer .email-info div {
+}
+
+footer .call-info div,
+footer .email-info div {
     margin-bottom: 5px;
-  }
+}
