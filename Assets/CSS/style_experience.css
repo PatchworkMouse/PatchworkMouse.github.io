@@ -1,3 +1,14 @@
+/* Header */
+header .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D3621; 
+  }
+  
+  nav a {
+    color: #0D3621; 
+  }
+
 /* General styles */
 body {
     background-color: #c5a9a9;
@@ -6,61 +17,57 @@ body {
     justify-content: center;
     padding: 20px;
   }
+
+/* Experience section */
+.experience-section {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 40px;
+  }
   
-  .timeline-container {
-    background-color: #fff;
-    padding: 30px;
+  /* Each experience box */
+  .experience-box {
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    width: 100%;
-  }
-  
-  .timeline {
-    position: relative;
-    padding-left: 30px;
-    margin: 20px 0;
-    border-left: 3px solid #6d6d6d; /* The timeline line */
-  }
-  
-  .timeline-item {
-    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
-    padding-left: 20px;
+    padding: 20px;
+    text-align: left;
   }
   
-  .timeline-item::before {
-    content: "";
-    position: absolute;
-    left: -40px;
-    top: 5px;
-    width: 20px;
-    height: 20px;
-    background-color: #6d6d6d;
-    border-radius: 50%; 
-  }
-  
-  .timeline-date {
-    font-weight: bold;
+  /* Content inside the experience box */
+  .experience-content h4 {
     color: #6d6d6d;
-    position: absolute;
-    left: -130px;
-    width: 100px;
-    text-align: right;
+    font-weight: bold;
   }
   
-  .timeline-content {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .timeline-content h3 {
-    margin: 0;
-    font-weight: bold;
+  .experience-content h5 {
     color: #333;
+    margin: 5px 0;
   }
-  .timeline-content p {
-    margin: 5px 0 0;
+  
+  .experience-content p {
     color: #555;
+    margin: 5px 0;
+  }  
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+  }
+  
+  footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  footer .call-info div,
+  footer .email-info div {
+    margin-bottom: 5px;
   }
