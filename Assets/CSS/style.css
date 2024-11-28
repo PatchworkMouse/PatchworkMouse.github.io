@@ -199,7 +199,8 @@ nav a:hover {
   border: none;
   height: 3px;
   background-color: #0D3621; 
-  margin-top: 10px;  /* Space above and below the divider */
+  margin-top: 10px;  
+  margin-bottom: 50px;
   margin-left: 800px;
   margin-right: 50px;
 }
