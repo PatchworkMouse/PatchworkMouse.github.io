@@ -201,7 +201,10 @@ nav a:hover {
   background-color: #0D3621; 
   margin-top: 10px;  /* Space above and below the divider */
   margin-left: 800px;
+  margin-right: 50px;
 }
+
+
 
 /* Footer */
 footer {
