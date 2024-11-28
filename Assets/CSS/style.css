@@ -208,11 +208,13 @@ nav a:hover {
 .work-experience {
   background-color: #dac1c1;  /* Light background to distinguish the section */
   padding: 40px 20px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .section-title {
+  font-family: "Merriweather", serif;
   font-size: 2em;
   color: #0D3621;
   margin-bottom: 20px;
