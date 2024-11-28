@@ -204,7 +204,47 @@ nav a:hover {
   margin-right: 50px;
 }
 
+/* Section Divider */
+.section-divider {
+  border: none;
+  height: 3px;
+  background-color: #0D3621;  /* Dark green to match your theme */
+  margin: 50px 0;  /* Space above and below the divider */
+}
 
+/* Work Experience Section */
+.work-experience {
+  background-color: #dac1c1;  /* Light background to distinguish the section */
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.section-title {
+  font-size: 2em;
+  color: #0D3621;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item .job-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0D3621;
+}
+
+.experience-item .job-duration {
+  color: #5A7A5E;
+  font-style: italic;
+}
+
+.experience-item .job-description {
+  color: #0D3621;
+  margin-top: 10px;
+}
 
 /* Footer */
 footer {
