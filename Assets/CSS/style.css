@@ -197,10 +197,10 @@ nav a:hover {
 /* Section Divider */
 .section-divider {
   border: none;
-  height: 8px;
+  height: 3px;
   background-color: #0D3621; 
   margin: 50px;  /* Space above and below the divider */
-  margin-left: 750px;
+  margin-left: 800px;
 }
 
 /* Footer */
