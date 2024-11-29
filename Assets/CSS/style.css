@@ -1,4 +1,4 @@
-/*smooth scrolling babyyyyy */
+/*smooth scrolling?? */
 
 html {
   scroll-behavior: smooth;
@@ -20,51 +20,52 @@ a {
 
 /* General header styling */
 header {
-  background-color: #f6f6f6;       
-  padding: 20px 40px;            
-  display: flex;            
-  justify-content: space-between;  
-  align-items: center;            
-  border-bottom: 2px solid #ddd;   
-  box-shadow: 0 2px 10px rgba(152, 84, 84, 0.1); 
+  background-color: #f6f6f6;       /* White background for uniformity */
+  padding: 20px 40px;              /* Padding for spacing */
+  display: flex;                   /* Flexbox for layout control */
+  justify-content: space-between;  /* Space between brand and navigation */
+  align-items: center;             /* Vertically center items */
+  border-bottom: 2px solid #ddd;   /* Subtle bottom border for definition */
+  box-shadow: 0 2px 10px rgba(152, 84, 84, 0.1); /* Soft shadow for depth */
 }
 
-/* My name (brand) */
+/* Branding (Logo or Site Name) */
 header .brand {
-  font-size: 28px;               
+  font-size: 28px;                 /* Slightly larger font */
   font-weight: bold;
-  color: #0D3621;               
-  text-decoration: none;           
+  color: #0D3621;                  /* Brand color */
+  text-decoration: none;           /* Remove any default underline */
 }
 
 /* Navigation links */
 nav a {
-  color: #0D3621;                
-  font-size: 18px;             
-  text-decoration: none;        
-  margin: 0 15px;              
-  transition: color 0.3s;      
+  color: #0D3621;                  /* Consistent color for links */
+  font-size: 18px;                 /* Readable font size */
+  text-decoration: none;           /* Remove underline */
+  margin: 0 15px;                  /* Spacing between links */
+  transition: color 0.3s;          /* Smooth color transition on hover */
 }
 
 /* Navigation link hover effect */
 nav a:hover {
-  color: #5A7A5E;                 
-  border-bottom: 2px solid #0D3621;
+  color: #5A7A5E;                  /* Slightly different color on hover */
+  border-bottom: 2px solid #0D3621;/* Underline effect for emphasis */
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;       
-    padding: 10px;             
+    flex-direction: column;        /* Stack items vertically on small screens */
+    padding: 10px;                 /* Adjust padding */
   }
   
   nav {
-    margin-top: 10px;             
+    margin-top: 10px;              /* Add space between brand and links */
+  }
   
   nav a {
-    display: block;                
-    margin: 10px 0;              
+    display: block;                /* Stack navigation links vertically */
+    margin: 10px 0;                /* Add space between links */
   }
 }
 
@@ -161,7 +162,7 @@ nav a:hover {
 }
 
 .right-content p {
-  color: #0D3621;
+  color: #555;
 }
 
 /* Buttons */
