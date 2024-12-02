@@ -321,8 +321,14 @@ nav a:hover {
 
 /* Education Section */
 .education-section {
-  padding: 5% 10%;
-  background-color: #f6f6f6; /* Light background to differentiate */
+  background-color: #dac1c1;   
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 48%;
+  margin-right: 2%;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .education-cards {
