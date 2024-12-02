@@ -224,6 +224,71 @@ nav a:hover {
   margin-left: 48%;
   margin-right: 2%;
   margin-bottom: 40px;
+  position: relative;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+/* Vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 4px;
+  background-color: #0D3621;
+}
+
+/* Timeline point (anchor) */
+.timeline-point {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  background-color: #5A7A5E;
+  border-radius: 50%;
+  border: 4px solid #dac1c1;
+  z-index: 1;
+}
+
+/* Position each point dynamically */
+.experience-item {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+/* Experience content */
+.timeline-content {
+  background-color: #dac1c1;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Title and description styling */
+.timeline-content .job-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0D3621;
+}
+
+.timeline-content .job-duration {
+  color: #5A7A5E;
+  font-style: italic;
+}
+
+.timeline-content .job-description {
+  color: #0D3621;
+  margin-top: 10px;
 }
 
 .section-title {
@@ -252,6 +317,11 @@ nav a:hover {
   color: #0D3621;
   margin-top: 10px;
 }
+
+/* Education section */
+/*.education {
+
+} */
 
 /* Footer */
 footer {
