@@ -20,7 +20,11 @@ a {
 
 /* General header styling */
 header {
-  background-color: #f6f6f6;       
+  background-color: #f6f6f6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;       
   padding: 20px 40px;              
   display: flex;                   
   justify-content: space-between;  
