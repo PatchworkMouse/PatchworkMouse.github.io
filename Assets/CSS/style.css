@@ -402,7 +402,6 @@ nav a:hover {
 
 .progress-bar {
   background-color: #cbc7b7; /* Light background for bar */
-  border-radius: 20px;
   overflow: hidden;
   position: relative;
   height: 25px;
@@ -410,13 +409,12 @@ nav a:hover {
 }
 
 .progress {
-  background-color: #0D3621; /* Dark green progress fill */
+  color: #0D3621; /* Dark green progress fill */
   height: 100%;
-  text-align: center;
+  text-align: right;
   line-height: 25px;
   border-radius: 20px;
   font-weight: bold;
-  transition: width 1s ease-in-out;
 }
 
 /* Footer */
