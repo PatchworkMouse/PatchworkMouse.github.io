@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /*so the color stays the same from the parent */
 }
 
 /* General header styling */
@@ -26,7 +26,7 @@ header {
   left: 0;
   width: 100%;  */ /*the position, top left and width part is bugged, the links stop working when i want the header to be static */     
   padding: 20px 40px;              
-  display: flex;                   
+  display: flex; /* using flexbox to align elements */
   justify-content: space-between;  
   align-items: center;             
   border-bottom: 2px solid #ddd;  
@@ -38,7 +38,7 @@ header .brand {
   font-size: 28px;                
   font-weight: bold;
   color: #0D3621;                  
-  text-decoration: none;           
+  text-decoration: none; /* no underline */
 }
 
 /* Navigation links */
@@ -78,10 +78,10 @@ nav a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 5% 10%;
+  padding: 5% 10%; /* 5% vertical and 10% horizontal, this is what works best */
   margin-left: 40%;
   min-height: 80vh;
-  position: relative;
+  position: relative; /* this gives context as the parent for any child component that needs to be positioned in relation to */
 }
 
 /* Dark Pink Rectangle */
@@ -92,7 +92,7 @@ nav a:hover {
   width: 40%; 
   height: 100vh;
   background-color: #c5a9a9;
-  z-index: -1;
+  z-index: -1; /*z-index is for layering, so dark pink rectangle is behind other stuff */
 }
 
 /* Profile section */
@@ -102,13 +102,13 @@ nav a:hover {
   padding: 5px;
   margin-top: 5%;
   min-height: 500px;
-  position: absolute;
+  position: absolute; 
   margin-left: 45%; 
   margin-top: 15%; 
-  z-index: 1; 
+  z-index: 1; /* over other elements */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* i want things to be in a column, so i used flexbox to arrange stuff that way */
   align-items: center; 
   justify-content: center; 
 }
@@ -130,7 +130,7 @@ nav a:hover {
   margin-bottom: 5px;
 }
 
-/* Underline */
+/* Underline in rectangle */
 .underline {
   width: 50px;
   height: 2px;
@@ -319,10 +319,53 @@ nav a:hover {
   margin-bottom: 40px;
 }
 
-/* Education section */
-/*.education {
+/* Education Section */
+.education-section {
+  padding: 5% 10%;
+  background-color: #f6f6f6; /* Light background to differentiate */
+}
 
-} */
+.education-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Space between cards */
+}
+
+.education-card {
+  background-color: #cbc7b7; /* Matches other sections */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.degree-title {
+  font-size: 1.8em;
+  color: #0D3621;
+  margin-bottom: 10px;
+}
+
+.institution {
+  font-size: 1.3em;
+  color: #0D3621;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-size: 1.1em;
+  color: #5A7A5E;
+  margin-bottom: 15px;
+}
+
+.degree-description {
+  color: #0D3621;
+  line-height: 1.6;
+}
 
 /* Footer */
 footer {
