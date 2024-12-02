@@ -384,6 +384,10 @@ nav a:hover {
   text-align: center;
 }
 
+.progress-bar {
+  background-color: #cbc7b7;
+}
+
 .progress {
   background-color: #0D3621;
 }
