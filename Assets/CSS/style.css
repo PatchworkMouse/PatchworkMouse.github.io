@@ -22,7 +22,8 @@ a {
 header {
   background-color: #f6f6f6;       
   padding: 20px 40px;              
-  display: flex;                   
+  display: flex;
+  position: fixed;                   
   justify-content: space-between;  
   align-items: center;             
   border-bottom: 2px solid #ddd;  
@@ -252,6 +253,7 @@ nav a:hover {
 /* Footer */
 footer {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
