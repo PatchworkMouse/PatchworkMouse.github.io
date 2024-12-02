@@ -384,6 +384,10 @@ nav a:hover {
   text-align: center;
 }
 
+.progress {
+  background-color: #0D3621;
+}
+
 /* Footer */
 footer {
   display: flex;
