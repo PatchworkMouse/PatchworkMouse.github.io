@@ -279,15 +279,15 @@ nav a:hover {
 }
 
 /* Styling for the job title and duration */
-.experience-left .job-title {
+.experience-left .job-duration {
   font-weight: bold;
   font-size: 1.2em;
   color: #0D3621;
 }
 
-.experience-left .job-duration {
+.experience-left .job-title {
   color: #5A7A5E;
-  font-style: italic;
+  font-size: 1.2em;
 }
 
 /* Styling for the company and job description */
