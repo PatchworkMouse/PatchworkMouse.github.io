@@ -217,9 +217,13 @@ nav a:hover {
 
 /* Work Experience Section */
 .work-experience {
+  background-color: #dac1c1;   
   padding: 40px 20px;
-  width: 80%;
-  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 48%;
+  margin-right: 2%;
+  margin-bottom: 40px;
   position: relative;
 }
 
