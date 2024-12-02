@@ -279,6 +279,11 @@ nav a:hover {
 }
 
 /* Styling for the job title and duration */
+.experience-left {
+  text-align: right;
+  margin-right: 5%;
+}
+
 .experience-left .job-duration {
   font-weight: bold;
   font-size: 1.2em;
@@ -291,6 +296,9 @@ nav a:hover {
 }
 
 /* Styling for the company and job description */
+.experience-right {
+  margin-left: 5%;
+}
 .experience-right .job-company {
   font-weight: bold;
   font-size: 1.2em;
