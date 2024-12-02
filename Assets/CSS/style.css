@@ -21,10 +21,10 @@ a {
 /* General header styling */
 header {
   background-color: #f6f6f6;
-  position: fixed;
+  /*position: fixed;
   top: 0;
   left: 0;
-  width: 100%;       
+  width: 100%;  */ /*the position, top left and width part is bugged, the links stop working when i want the header to be static */     
   padding: 20px 40px;              
   display: flex;                   
   justify-content: space-between;  
