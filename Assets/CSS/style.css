@@ -155,7 +155,7 @@ nav a:hover {
   padding-left: 5%;
   margin-top: 20vh;
   margin-right: 15%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .right-content h1 {
@@ -225,6 +225,7 @@ nav a:hover {
   margin-right: 2%;
   margin-bottom: 40px;
   position: relative;
+  z-index: -1;
 }
 
 /* Timeline container */
