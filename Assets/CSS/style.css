@@ -388,12 +388,29 @@ nav a:hover {
   text-align: left;
 }
 
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill p {
+  font-size: 1.2em;
+  color: #0D3621;
+  margin-bottom: 10px;
+}
+
 .progress-bar {
   background-color: #cbc7b7 !important;
 }
 
 .progress {
   background-color: #0D3621 !important;
+  font-weight: bold;
 }
 
 /* Contact Section */
