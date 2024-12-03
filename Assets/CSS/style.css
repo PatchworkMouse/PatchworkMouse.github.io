@@ -83,6 +83,7 @@ nav a:hover {
   margin-left: 40%;
   min-height: 80vh;
   position: relative;
+  z-index: -1;
    /* this gives context as the parent for any child component that needs to be positioned in relation to */
 }
 
