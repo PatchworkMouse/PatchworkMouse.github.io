@@ -77,7 +77,7 @@ nav a:hover {
 .main-content {
   display: flex;
   align-items: flex-start;
-  text-align: right;
+  text-align: left;
   justify-content: space-between;
   padding: 5% 10%; /* 5% vertical and 10% horizontal, this is what works best */
   margin-left: 40%;
