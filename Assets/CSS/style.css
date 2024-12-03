@@ -389,11 +389,11 @@ nav a:hover {
 }
 
 .progress-bar {
-  background-color: #cbc7b7;
+  background-color: #cbc7b7 !important;
 }
 
 .progress {
-  background-color: #0D3621;
+  background-color: #0D3621 !important;
 }
 
 /* Contact Section */
