@@ -105,7 +105,7 @@ nav a:hover {
   position: absolute; 
   margin-left: 45%; 
   margin-top: 15%; 
-  z-index: 1; /* over other elements */
+  z-index: -1; /* under other elements */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   display: flex;
   flex-direction: column; /* i want things to be in a column, so i used flexbox to arrange stuff that way */
