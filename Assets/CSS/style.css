@@ -330,6 +330,7 @@ nav a:hover {
   margin-right: 2%;
   margin-bottom: 40px;
   position: relative;
+  z-index: -1;
 }
 
 .education-cards {
