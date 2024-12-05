@@ -311,7 +311,7 @@ nav a:hover {
   gap: 30px; /* Space between cards */
 }
 
-.education-card { /*i want to add the university logooooos */
+.education-card { 
   background-color: #cbc7b7; /* fait un rappel avec photocard */
   border-radius: 10px;
   padding: 30px;
@@ -391,6 +391,14 @@ nav a:hover {
   margin-right: 2%;
   margin-bottom: 40px;
   text-align: center;
+  
+}
+
+/*Contact information styling */
+.contact-section p {
+  font-size: 1.2em;
+  color:#0D3621;
+  text-align: left;
 }
 
 
