@@ -172,6 +172,15 @@ nav a:hover {
   color: #0D3621;
 }
 
+.right-content .about-description {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: #0D3621;
+  text-align: left;
+  margin-top: 10px;
+
+}
+
 .main-content-experience {
   background-color: #c5a9a9;
 }
@@ -311,7 +320,7 @@ nav a:hover {
   gap: 30px; /* Space between cards */
 }
 
-.education-card { 
+.education-card { /*i want to add the university logooooos */
   background-color: #cbc7b7; /* fait un rappel avec photocard */
   border-radius: 10px;
   padding: 30px;
@@ -390,15 +399,13 @@ nav a:hover {
   margin-left: 48%;
   margin-right: 2%;
   margin-bottom: 40px;
-  text-align: center;
-  
+  text-align: center; /* Setting the text aligned in the center rather than to the left makes it different than the rest of my page
+  I believe it sets the information apart, and looks better than trying to adjust the padding to match the previous section */
 }
 
-/*Contact information styling */
 .contact-section p {
-  font-size: 1.2em;
-  color:#0D3621;
-  text-align: left;
+  font-size: 1.2em; /* I want the font size to be bigger than paragraph since theres less information in this section */ 
+  color: #0D3621; 
 }
 
 
