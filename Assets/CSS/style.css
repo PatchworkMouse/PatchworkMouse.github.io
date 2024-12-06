@@ -362,7 +362,9 @@ nav a:hover {
 
 /* Skills Section */
 .skills-section {
-  background-color: #cbc7b7; 
+  background-color: #cbc7b7; /* I really wanted to have the skills section stand out from all the rest of the sections
+  so I used the same color as the profile picture design (the rectangle with my name and job title), and the rest of the section use 
+  a pink #dac1c1 color to show uniformity and cohesiveness. I think this conveys a thoughtful use of color to enhance design*/
   padding: 40px 20px;
   border-radius: 10px;
   margin-left: 48%;
