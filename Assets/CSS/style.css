@@ -428,3 +428,124 @@ footer .call-info div,
 footer .email-info div {
   margin-bottom: 5px;
 }
+
+/* I leave this comment to explain my process for web responsiveness. As this was not taught in class I did my best with 
+the tools I had, I followed the tutorial from https://www.w3schools.com/css/css_rwd_mediaqueries.asp but it is not 100% responsive.
+The text overlaps in some parts, and because of z-index (which dictates layers on the website), the profile section with my picture is
+always in the background of all the other sections. I would like to highlight the fact that all my other sections do however behave much 
+nicely than before I coded media queries in */
+
+/* Adjustments for tablets (up to 1024px) */
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    padding: 5% 5%;
+    margin-left: 0;
+  }
+
+  .dark-pink-rectangle {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .profile {
+    width: 90%;
+    margin: 10% auto 5%;
+  }
+
+  .right-content {
+    padding-left: 0;
+    margin-top: 10vh;
+    margin-right: 0;
+  }
+  
+  .work-experience, 
+  .education-section, 
+  .skills-section, 
+  .contact-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Adjustments for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .section-divider {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .experience-item,
+  .education-cards {
+    flex-direction: column;
+  }
+
+  .experience-left,
+  .experience-right {
+    width: 90%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .dark-pink-rectangle {
+    height: 30vh;
+  }
+}
+
+/* Adjustments for mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  header .brand {
+    font-size: 24px;
+  }
+
+  nav a {
+    font-size: 16px;
+    margin: 5px 10px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .right-content h1 {
+    font-size: 2em;
+  }
+
+  .cta-buttons .btn-success,
+  .cta-buttons .btn-outline-success {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+  }
+
+  .skills-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
