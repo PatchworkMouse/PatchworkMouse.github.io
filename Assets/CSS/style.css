@@ -1,4 +1,4 @@
-/*smooth scrolling?? */
+/*smooth scrolling to enhance user experience */
 
 html {
   scroll-behavior: smooth;
@@ -9,36 +9,37 @@ body {
   font-family: 'Lato', sans-serif;
   color: #0D3621; 
   background-color: #f6f6f6;
-  margin: 0;
+  margin: 0; /* I am resetting the margin and padding for consistent layout across browsers */
   padding: 0;
 }
 
-a {
+
+a { /* Inheriting color in anchor tags ensures uniformity with parent elements */
   text-decoration: none;
-  color: inherit; /*so the color stays the same from the parent */
+  color: inherit; /* Ensures links blend with the text styling unless overridden */
 }
 
 /* General header styling */
 header {
   background-color: #f6f6f6;
-  position: fixed;
+  position: fixed; /* Using fixed positioning for header keeps it visible during scrolls, enhancing navigation usability */
   top: 0;
   left: 0;
-  width: 100%;   /*the position, top left and width part is bugged, the links stop working when i want the header to be static */     
+  width: 100%;   /*to ensure the width spans the whole page, ensuring responsiveness */    
   padding: 20px 40px;              
   display: flex; /* using flexbox to align elements */
   justify-content: space-between;  
   align-items: center;             
   border-bottom: 2px solid #ddd;  
-  box-shadow: 0 2px 10px rgba(152, 84, 84, 0.1); 
+  box-shadow: 0 2px 10px rgba(152, 84, 84, 0.1); /*Adding depth with a subtle shadow */
 }
 
 /* My name (brand) */
-header .brand {
+header .brand { /* Consistent styling for brand name, making it stand out */
   font-size: 28px;                
   font-weight: bold;
   color: #0D3621;                  
-  text-decoration: none; /* no underline */
+  text-decoration: none; /* I want to prevent underline on brand name */
 }
 
 /* Navigation links */
@@ -47,7 +48,7 @@ nav a {
   font-size: 18px;                
   text-decoration: none;           
   margin: 0 15px;                  
-  transition: color 0.3s;          
+  transition: color 0.3s; /* Smooth hover effect enhances UX */
 }
 
 /* Navigation link hover effect */
@@ -59,7 +60,7 @@ nav a:hover {
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;        
+    flex-direction: column; /* Ensures header elements stack on smaller screens */  
     padding: 10px;                 
   }
   
@@ -68,7 +69,7 @@ nav a:hover {
   }
   
   nav a {
-    display: block;                
+    display: block; /* Stack navigation links for better usability on small screens */              
     margin: 10px 0;            
   }
 }
@@ -79,12 +80,11 @@ nav a:hover {
   align-items: flex-start;
   text-align: left;
   justify-content: space-between;
-  padding: 5% 10%; /* 5% vertical and 10% horizontal, this is what works best */
+  padding: 5% 10%; /* 5% vertical and 10% horizontal, this is what works best */ /* Percentage-based padding ensures responsiveness */
   margin-left: 40%;
   min-height: 80vh;
   position: relative;
-  z-index: -1;
-   /* this gives context as the parent for any child component that needs to be positioned in relation to */
+  z-index: -1; /* Establishes context for layering and positioning, I suspect this is what is wrong with this part of the website's responsiveness*/
 }
 
 /* Dark Pink Rectangle */
@@ -95,7 +95,7 @@ nav a:hover {
   width: 40%; 
   height: 100vh;
   background-color: #c5a9a9;
-  z-index: -1; /*z-index is for layering, so dark pink rectangle is behind other stuff */
+  z-index: -1; /* Proper use of z-index to position it below content */
 }
 
 /* Profile section */
@@ -108,10 +108,10 @@ nav a:hover {
   position: absolute; 
   margin-left: 45%; 
   margin-top: 15%; 
-  z-index: -1; /* under other elements */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  z-index: -1; /* Ensures it doesn't overlap other elements */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow styling across sections */
   display: flex;
-  flex-direction: column; /* i want things to be in a column, so i used flexbox to arrange stuff that way */
+  flex-direction: column; /* Flexbox simplifies columnar layout */
   align-items: center; 
   justify-content: center; 
 }
@@ -121,7 +121,7 @@ nav a:hover {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  object-fit: cover; 
+  object-fit: cover; /* I want to ensure the image scales correctly */
   margin-bottom: 30px;
 }
 /* Profile Name */
@@ -181,6 +181,10 @@ nav a:hover {
 
 }
 
+/*
+  - Consistent use of media queries for responsiveness 
+  - Use of percentage-based dimensions where possible for scalability 
+    - Shadow and hover effects for enhancing interactivity */
 .main-content-experience {
   background-color: #c5a9a9;
 }

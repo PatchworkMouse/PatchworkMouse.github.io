@@ -9,16 +9,15 @@
   <title>Alizee B Harel - Resume</title>
   <link rel="stylesheet" href="Assets/CSS/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-  <!-- Bootstrap CSS -->
+  <!-- Linking external libraries like Google Fonts and Bootstrap is a good practice for modularity and faster development -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="background-color: #fff;">
 
 <!-- Header -->
-<header class="d-flex justify-content-between p-4 border-bottom">
+<header class="d-flex justify-content-between p-4 border-bottom"> <!-- attempt at responsiveness, enables flexbox, adds padding and spaces along main axis. adds a border at the bottom of the header-->
     <div class="brand">Alizee Harel | Information Architect</div>
-    <nav class="d-flex align-items-center">
-      <a href="#About-Me" class="nav-link">About Me</a>
+    <nav class="d-flex align-items-center"> <!-- flexbox to align across the y axis-->
+      <a href="#About-Me" class="nav-link">About Me</a>       <!-- I am ensuring all navigation links are functional and descriptive -->
       <a href="#Experience" class="nav-link">Experience</a>
       <a href="#Education" class="nav-link">Education</a>
       <a href= "#Skills" class="nav-link">Skills</a>
@@ -29,11 +28,11 @@
   <!-- About Me Section -->
   <section id = "About-Me" 
   class="about-me-section d-flex p-5">
-    <!-- Dark Pink Rectangle -->
+      <!-- Semantic HTML ensures better accessibility and SEO -->
     <div class="dark-pink-rectangle">
-      <!-- Profile Section -->
     <div class="profile text-center p-3">
-        <img src="Assets/IMG/better headshot.jpg" alt="Profile Photo" class="profile-photo">
+              <!-- Use "alt" attributes for accessibility; describe the image meaningfully -->
+        <img src="Assets/IMG/better headshot.jpg" alt="Profile Photo" class="profile-photo"> <!-- bootstrap tag of img so that it is supported for responsiveness-->
         <h2 class="profile-name">Alizee Harel</h2>
     <div class="underline"></div>
     <p class="job-title">Information Architect</p>
@@ -42,6 +41,7 @@
 
     <!-- Right Content -->
     <div class="right-content ml-5"> <!-- bootstrap ml-5 margin left -->
+            <!-- Use proper heading levels for accessibility and a logical content structure -->
       <h1 class="font-weight-bold text-success">Bonjour</h1>
       <p class="lead">Guiding Users, Shaping Experiences</p>
       <p class="about-description"> Vivamus viverra eros tortor, eget finibus dui auctor non. 
@@ -62,7 +62,7 @@
 <section id="Experience">
   <div class="work-experience">
     <h2 class="section-title">Work Experience</h2>
-    <div class="timeline">
+    <div class="timeline">         <!-- I am using a consistent structure for repeating elements like these timeline items -->
       <div class="experience-item">
         <div class="experience-left">
           <h3 class="job-duration">April 2024 - August 2024</h3>
@@ -97,6 +97,8 @@
   </div>
 </section>
 
+<!-- Each section is separated by empty lines to enhance and facilitate readability, 
+ and each section starts with a comment that indicates the purpose of that section through its name -->
 <!-- Divider -->
 <hr class="section-divider">
   
@@ -105,7 +107,8 @@
   class="education-section">
     <h2 class="section-title">Education</h2>
     <div class="education-cards">
-      <!-- Card 1 -->
+      <!-- Repeatable cards are styled with shared class names for maintainability -->
+      <!-- Card 1-->
       <div class="education-card">
         <h3 class="degree-title">Master's degree of Information Studies</h3>
         <p class="institution">McGill University</p>
@@ -138,6 +141,7 @@
 class="skills-section">
   <h2 class="section-title">Skills</h2>
   <div class="skills-container">
+          <!-- Keep all skill progress bars consistent in structure and style -->
     <div class="skill">
       <p>English Language</p>
       <div class="progress-bar">
